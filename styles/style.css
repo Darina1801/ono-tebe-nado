@@ -29,7 +29,6 @@
 
 .header__links-list-item {
   list-style: circle;
-  margin-left: 2px;
 }
 
 .header__links-list-item_no-bullit {
@@ -39,7 +38,6 @@
 .header__link {
   border-bottom: 1px solid #000;
   text-decoration: none;
-  letter-spacing: 0.3px;
 }
 
 .header__link_active {
@@ -48,8 +46,7 @@
 }
 
 .header__logo {
-  justify-self: left;
-  margin-left: 33px;
+  justify-self: center;
   max-height: 105px;
   max-width: 149px;
 }
@@ -118,6 +115,7 @@
   position: relative;
   text-transform: uppercase;
   z-index: 0;
+  display: flex;
 }
 
 .aligned-text_center {
@@ -163,7 +161,7 @@
   height: 52px;
   text-align: center;
   text-transform: uppercase;
-  width: 255px;
+  width: 257px;
 }
 
 .lots {
@@ -177,7 +175,7 @@
   font-style: normal;
   font-weight: 700;
   margin-bottom: 27px;
-  margin-left: 63px;
+  margin-left: 40px;
   text-transform: uppercase;
 }
 
@@ -185,7 +183,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 40;
   gap: 25px;
   justify-content: center;
   list-style: none;
@@ -216,8 +213,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 57px;
-  margin-right: 50px;
   margin-bottom: 50px;
   margin-top: 50px;
   position: relative;
