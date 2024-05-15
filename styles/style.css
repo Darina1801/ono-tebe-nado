@@ -6,14 +6,13 @@
   align-content: start;
   justify-items: center;
   padding: 94px 0px 94px 0px;
-  letter-spacing: 0.08px;
 }
 
 .header__menu {
   align-self: center;
   display: flex;
   flex-direction: row;
-  padding-top: 2px;
+  margin-top: 2px;
   font-size: 18px;
   justify-content: space-evenly;
 }
@@ -23,7 +22,9 @@
   flex-flow: row;
   gap: 31.9px;
   margin-left: 8px;
-  white-space: nowrap;
+  letter-spacing: 0.08px;
+  max-width: 390px;
+  min-width: 390px;
 }
 
 .header__links-list-item {
@@ -35,7 +36,7 @@
 }
 
 .header__link {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #000;
   text-decoration: none;
 }
 
@@ -55,21 +56,27 @@
   width: 149px;
 }
 
-.header__address {
+.address {
   display: flex;
   flex-flow: column;
   align-self: center;
   justify-self: end;
-  margin-right: 50px;
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
   text-underline-offset: 4px;
   max-width: 240px;
+  min-width: 240px;
+  letter-spacing: 0.08px;
+}
+
+.header__address {
+  margin-right: 50px;
 }
 
 .cover {
   background-image: url(../images/cover.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -246,7 +253,7 @@
 }
 
 .lots__look-more-link {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #000;
   display: inline-block;
   font-size: 20px;
   margin-left: 40px;
@@ -312,13 +319,7 @@
 }
 
 .footer__address {
-  font-size: 18px;
-  font-style: normal;
-  line-height: 24.2px;
   margin-left: 50px;
-  max-width: 240px;
-  min-width: 240px;
-  text-underline-offset: 4px;
 }
 
 .footer__menu {
