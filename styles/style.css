@@ -5,14 +5,14 @@
   justify-content: center;
   align-content: start;
   justify-items: center;
-  padding: 92px 0px 94px 0px;
+  padding: 92px 0px 92px 0px;
 }
 
 .header__menu {
   align-self: center;
   display: flex;
   flex-direction: row;
-  margin-top: 3px;
+  margin-top: 2px;
   font-size: 18px;
   justify-content: space-evenly;
 }
@@ -22,18 +22,20 @@
   flex-flow: row;
   gap: 28.5px;
   letter-spacing: 0.15px;
+  line-height: 24.6px;
   margin-left: 50px;
-  max-width: 389px;
-  min-width: 389px;
+  max-width: 392px;
+  min-width: 392px;
 }
 
 .header__links-list-item {
   list-style: circle;
-  margin-left: 2px;
+  margin-left: 3px;
 }
 
 .header__links-list-item_no-bullit {
   list-style: none;
+  margin-right: 0.5px;
 }
 
 .header__link {
@@ -48,8 +50,6 @@
 .header__logo {
   justify-self: left;
   margin-left: 35px;
-  height: 105px;
-  width: 149px;
 }
 
 .header__logo-image {
@@ -62,12 +62,12 @@
   flex-flow: column;
   align-self: center;
   justify-self: end;
-  line-height: 24.8px;
+  line-height: 24.4px;
   font-style: normal;
   text-underline-offset: 4px;
   max-width: 238px;
   min-width: 238px;
-  letter-spacing: 0.08px;
+  letter-spacing: 1px;
 }
 
 .header__address {
@@ -82,7 +82,8 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  min-height: 757px;
+  height: 757px;
+  width: 1100px;
   position: relative;
   z-index: 1;
 }
@@ -118,6 +119,10 @@
   z-index: 0;
 }
 
+.aligned-text_left {
+  text-align: left;
+}
+
 .aligned-text_center {
   justify-content: center;
   margin-top: 27px;
@@ -125,14 +130,13 @@
 }
 
 .aligned-text_right {
-  margin-right: -30px;
   margin-top: 20px;
-  text-align: right;
+  text-align: left;
+  justify-content: end;
 }
 
 .aligned-text {
   display: flex;
-  text-align: start;
 }
  
 .cover__description {
@@ -142,14 +146,14 @@
   flex-direction: row;
   gap: 82px;
   justify-self: flex-end;
-  margin: 137px 50px 0px 0px;
+  margin: 135px 50px 0px 0px;
   z-index: 0;
 }
 
 .cover__description-text {
   font-size: 22px;
   text-transform: uppercase;
-  word-spacing: 17.4px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -161,7 +165,7 @@
   height: 52px;
   text-align: center;
   text-transform: uppercase;
-  width: 257px;
+  width: 255.5px;
 }
 
 .lots {
@@ -181,7 +185,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 40px;
   gap: 25px;
   justify-content: center;
   list-style: none;
@@ -194,8 +197,8 @@
   flex-direction: column;
   flex-grow: 1;
   position: relative;
-  max-width: 334px;
-  min-height: 462px;
+  max-width: 344px;
+  min-height: 562px;
 }
 
 .card-link {
