@@ -116,7 +116,6 @@
   position: relative;
   text-transform: uppercase;
   z-index: 0;
-  display: flex;
 }
 
 .aligned-text_center {
