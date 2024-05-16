@@ -97,11 +97,11 @@
   z-index: -1;
 }
 
-.no-letter-spacing {
+.cover__title_no-letter-spacing {
   letter-spacing: 60px;
 }
 
-.letter-spacing-extended {
+.cover__title_letter-spacing-extended {
   letter-spacing: 30px;
 }
 
