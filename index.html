@@ -16,7 +16,7 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item_no-bullit">
-            <a href="#main" class="header__link_active">главная</a>
+            <a href="#main" class="header__link header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
             <a href="#lots" class="header__link">посмотреть лоты</a>
@@ -42,16 +42,17 @@
     <main id="main">
       <section class="cover">
         <div class="overlay"></div>
-        <h1 class="cover__title letter-spacing-extended">
-          <span class="aligned-text">о<span class="no-letter-spacing">но</span></span>
-          <span class="aligned-text_center">те<span class="no-letter-spacing">бе</span></span>
-          <span class="aligned-text_right"><span class="no-letter-spacing">н</span>адо</span>
+        <h1 class="cover__title letter-spacing-decreased">
+          <span class="aligned-text aligned-text_left">о<span class="letter-spacing-extended">но</span></span>
+          <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+          <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
         </h1>
         <div class="cover__description">
-          <p class="cover__description-text">аукцион вещей, в которые никто <span class="word-spacing-extended">не верил</span></p>
+          <p class="cover__description-text">аукцион вещей, в которые никто<span class="cover__title_no-letter-spacing"> не верил</span></p>
           <button type="button" class="bet-button">сделать ставку</button>
         </div>
       </section>
+
       <section class="lots" id="lots">
         <h2 class="lots__heading">лоты</h2>
         <ul class="lots__card-list">
@@ -95,7 +96,7 @@
       </section>
 
       <section class="about" id="about">
-        <div class="about__column">
+        <div class="about__column about__column-left">
           <div class="about__logo">
             <img 
               class="about__logo-image"
@@ -103,19 +104,26 @@
               alt="Логотип &#8222;Оно тебе надо&#8222; на фоне черного круга. Белый текст на черном фоне, заключенный в белую рамку">
           </div>
         </div>
-        <div class="about__column">
+        <div class="about__column about__column-right">
           <h2 class="about__title">об аукционе</h2>
-          <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно
-            дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
-            один аукцион. Потому что кому нужен дневник девочки-подростка или
-            картина, которую может нарисовать даже ребёнок? Кому нужны все эти
-            странные вещи, созданные любителями?</p>
-          <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё
-            время. В пух и прах растерзанные критиками. Непринятые и непонятые.
-            Когда-то они казались просто неудачными. Но, несмотря на критику,
-            кажущуюся простоту или сложность, сейчас без этих лотов невозможно
-            представить современную культуру. Когда в эти вещи не верил никто,
-            продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
+          <p class="about__text"><span class="about__text-expanded">Здесь вы не встретите очередное пафосное</span> 
+            <span class="about__text-decreased">собрание невероятно</span>
+            дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому 
+            <span class="about__text-expanded">нужен дневник девочки-</span>
+            подростка или картина, 
+            <span class="about__text-decreased">которую может</span>
+            <span class="about__text-expanded">нарисовать даже ребёнок?</span> 
+            Кому нужны все эти странные 
+            <span class="about__text-expanded">вещи, созданные любителями?</span></p>
+          <p class="about__text">Слишком сложные или, наоборот, 
+            <span class="about__text-decreased-more">слишком простые. Опережающие </span>
+            своё время. В пух и прах 
+            <span class="about__text-decreased">растерзанные критиками. Непринятые и непонятые.</span>
+            Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся 
+            <span class="about__text-decreased-more">простоту или сложность, сейчас без этих лотов</span> 
+            невозможно представить 
+            <span class="about__text-extended-more">современную культуру.</span> 
+            Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
         </div>
       </section>
     </main>
@@ -129,7 +137,7 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link_active" href="#main">главная</a>
+            <a class="footer__menu-link footer__menu-link_active" href="#main">главная</a>
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
